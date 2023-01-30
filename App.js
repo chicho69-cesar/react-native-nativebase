@@ -1,20 +1,70 @@
-import { StatusBar } from 'expo-status-bar';
-import { StyleSheet, Text, View } from 'react-native';
+import {
+  Button,
+  Modal,
+  Center,
+  FormControl,
+  Input,
+  NativeBaseProvider,
+} from 'native-base';
 
-export default function App() {
+import { useState } from 'react';
+
+export const Example = () => {
+  const [ showModal, setShowModal ] = useState(false);
+
   return (
-    <View style={styles.container}>
-      <Text>Open up App.js to start working on your app!</Text>
-      <StatusBar style="auto" />
-    </View>
-  );
-}
+    <>
+      <Button onPress={() => setShowModal(true)}>Button</Button>
+      
+      <Modal isOpen={showModal} onClose={() => setShowModal(false)}>
+        <Modal.Content maxWidth="400px">
+          <Modal.CloseButton />
 
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    backgroundColor: '#fff',
-    alignItems: 'center',
-    justifyContent: 'center',
-  },
-});
+          <Modal.Header>Contact Us</Modal.Header>
+
+          <Modal.Body>
+            <FormControl>
+              <FormControl.Label>Name</FormControl.Label>
+              <Input />
+            </FormControl>
+
+            <FormControl mt="3">
+              <FormControl.Label>Email</FormControl.Label>
+              <Input />
+            </FormControl>
+          </Modal.Body>
+
+          <Modal.Footer>
+            <Button.Group space={2}>
+              <Button
+                variant="ghost"
+                colorScheme="blueGray"
+                onPress={() => {
+                  setShowModal(false);
+                }}>
+                Cancel
+              </Button>
+
+              <Button
+                onPress={() => {
+                  setShowModal(false);
+                }}>
+                Save
+              </Button>
+            </Button.Group>
+          </Modal.Footer>
+        </Modal.Content>
+      </Modal>
+    </>
+  );
+};
+
+export default () => {
+  return (
+    <NativeBaseProvider>
+      <Center flex={1}>
+        <Example />
+      </Center>
+    </NativeBaseProvider>
+  );
+};

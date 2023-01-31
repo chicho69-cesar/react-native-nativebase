@@ -1,9 +1,11 @@
 // import CoreConcepts from "./src/core-concepts/CoreConcepts";
-import Typography from "./src/typography/Typography";
+import Layout from "./src/layout/Layout";
+// import Typography from "./src/typography/Typography";
 
 export default () => {
   return (
     // <CoreConcepts/>
-    <Typography/>
+    <Layout/>
+    // <Typography/>
   );
 };

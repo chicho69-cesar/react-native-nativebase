@@ -1,13 +1,14 @@
 import { NativeBaseProvider, Center } from "native-base";
 import { MyAspectRatio } from "./MyAspectRatio";
 import {
-  Basic,
+  // Basic,
   BasicExtended,
   Composition,
   WithLinearGradientExpo,
   WithLinearGradientNative,
   WithRef
 } from './MyBox';
+import { Basic, IconFrames, SquareAndCircle } from "./MyCenter";
 
 export default Layout = () => {
   return (
@@ -20,7 +21,11 @@ export default Layout = () => {
         {/* <Composition/> */}
         {/* <WithLinearGradientExpo/> */}
         {/* <WithLinearGradientNative/> */}
-        <WithRef/>
+        {/* <WithRef/> */}
+
+        {/* <Basic/> */}
+        {/* <IconFrames/> */}
+        <SquareAndCircle/>
       </Center>
     </NativeBaseProvider>
   );

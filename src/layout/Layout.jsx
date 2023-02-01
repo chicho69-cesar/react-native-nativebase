@@ -9,6 +9,7 @@ import {
   WithRef
 } from './MyBox';
 import { Basic, IconFrames, SquareAndCircle } from "./MyCenter";
+import { MyContainer } from "./MyContainer";
 
 export default Layout = () => {
   return (
@@ -25,7 +26,9 @@ export default Layout = () => {
 
         {/* <Basic/> */}
         {/* <IconFrames/> */}
-        <SquareAndCircle/>
+        {/* <SquareAndCircle/> */}
+        
+        <MyContainer/>
       </Center>
     </NativeBaseProvider>
   );

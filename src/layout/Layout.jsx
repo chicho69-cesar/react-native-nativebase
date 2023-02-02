@@ -14,6 +14,7 @@ import { FlexExample, WithSpacer } from "./MyFlex";
 import { HStackExample, BasicHStack } from "./MyHStack";
 import { MyStack } from "./MyStack";
 import { VStackExample, BasicVStack } from "./MyVStack";
+import { ZStackExample, BasicZStack, CenterZStack } from "./ZStack";
 
 export default Layout = () => {
   return (
@@ -43,7 +44,11 @@ export default Layout = () => {
         {/* <MyStack/> */}
 
         {/* <VStackExample/> */}
-        <BasicVStack/>
+        {/* <BasicVStack/> */}
+
+        {/* <ZStackExample/> */}
+        {/* <BasicZStack/> */}
+        <CenterZStack/>
       </Center>
     </NativeBaseProvider>
   );

@@ -10,6 +10,7 @@ import {
 } from './MyBox';
 import { Basic, IconFrames, SquareAndCircle } from "./MyCenter";
 import { MyContainer } from "./MyContainer";
+import { FlexExample, WithSpacer } from "./MyFlex";
 
 export default Layout = () => {
   return (
@@ -28,7 +29,10 @@ export default Layout = () => {
         {/* <IconFrames/> */}
         {/* <SquareAndCircle/> */}
         
-        <MyContainer/>
+        {/* <MyContainer/> */}
+
+        {/* <FlexExample/> */}
+        <WithSpacer/>
       </Center>
     </NativeBaseProvider>
   );

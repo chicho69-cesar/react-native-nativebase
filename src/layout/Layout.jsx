@@ -11,6 +11,7 @@ import {
 import { Basic, IconFrames, SquareAndCircle } from "./MyCenter";
 import { MyContainer } from "./MyContainer";
 import { FlexExample, WithSpacer } from "./MyFlex";
+import { HStackExample, BasicHStack } from "./MyHStack";
 
 export default Layout = () => {
   return (
@@ -32,7 +33,10 @@ export default Layout = () => {
         {/* <MyContainer/> */}
 
         {/* <FlexExample/> */}
-        <WithSpacer/>
+        {/* <WithSpacer/> */}
+
+        {/* <HStackExample/> */}
+        <BasicHStack/>
       </Center>
     </NativeBaseProvider>
   );

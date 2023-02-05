@@ -2,6 +2,7 @@ import { NativeBaseProvider, Center } from "native-base";
 import { BasicButton, ButtonVariants, IconButtons, LoadingButtons, SizesButton } from "./MyButton";
 import { AcceptTerms, BasicCheckbox, CheckboxGroup, CheckboxWithRef, Controlled, CustomColor, CustomIcon, Disabled, FormControlled, Invalid, SizeCheckbox, Uncontrolled } from "./MyCheckbox";
 import { BasicFormControl, ControlPassword, FormCustomStyle } from "./MyFormControl";
+import { BasicIconButton, SizesIconButton, VariantsIconButton } from "./MyIconButton";
 import { AccesingEvents, BasicPressable } from "./MyPressable";
 
 export default Forms = () => {
@@ -31,7 +32,11 @@ export default Forms = () => {
 
       {/* <BasicFormControl/> */}
       {/* <FormCustomStyle/> */}
-      <ControlPassword/>
+      {/* <ControlPassword/> */}
+      
+      {/* <BasicIconButton/> */}
+      {/* <SizesIconButton/> */}
+      <VariantsIconButton/>
     </Center>
   </NativeBaseProvider>;
 }

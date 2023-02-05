@@ -1,5 +1,6 @@
 import { NativeBaseProvider, Center } from "native-base";
 import { BasicButton, ButtonVariants, IconButtons, LoadingButtons, SizesButton } from "./MyButton";
+import { AccesingEvents, BasicPressable } from "./MyPressable";
 
 export default Forms = () => {
   return <NativeBaseProvider>
@@ -8,7 +9,10 @@ export default Forms = () => {
       {/* <SizesButton/> */}
       {/* <ButtonVariants/> */}
       {/* <LoadingButtons/> */}
-      <IconButtons/>
+      {/* <IconButtons/> */}
+
+      {/* <BasicPressable/> */}
+      <AccesingEvents/>
     </Center>
   </NativeBaseProvider>;
 }

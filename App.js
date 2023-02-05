@@ -1,7 +1,7 @@
-// import CoreConcepts from "./src/core-concepts/CoreConcepts";
+import CoreConcepts from "./src/core-concepts/CoreConcepts";
 import Forms from "./src/forms/Forms";
 import Layout from "./src/layout/Layout";
-// import Typography from "./src/typography/Typography";
+import Typography from "./src/typography/Typography";
 
 export default () => {
   return (

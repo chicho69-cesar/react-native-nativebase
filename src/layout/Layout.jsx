@@ -20,7 +20,7 @@ export default Layout = () => {
   return (
     <NativeBaseProvider>
       <Center flex={1} px="3">
-        {/* <MyAspectRatio/> */}
+        <MyAspectRatio/>
 
         {/* <Basic/> */}
         {/* <BasicExtended/> */}
@@ -48,7 +48,7 @@ export default Layout = () => {
 
         {/* <ZStackExample/> */}
         {/* <BasicZStack/> */}
-        <CenterZStack/>
+        {/* <CenterZStack/> */}
       </Center>
     </NativeBaseProvider>
   );

@@ -47,10 +47,12 @@ export function Composition() {
       _dark={{
         borderColor: "coolGray.600",
         backgroundColor: "gray.700"
-      }} _web={{
+      }} 
+      _web={{
         shadow: 2,
         borderWidth: 0
-      }} _light={{
+      }} 
+      _light={{
         backgroundColor: "gray.50"
       }}
     >

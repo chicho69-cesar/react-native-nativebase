@@ -20,11 +20,11 @@ export default Layout = () => {
   return (
     <NativeBaseProvider>
       <Center flex={1} px="3">
-        <MyAspectRatio/>
+        {/* <MyAspectRatio/> */}
 
         {/* <Basic/> */}
         {/* <BasicExtended/> */}
-        {/* <Composition/> */}
+        <Composition/>
         {/* <WithLinearGradientExpo/> */}
         {/* <WithLinearGradientNative/> */}
         {/* <WithRef/> */}

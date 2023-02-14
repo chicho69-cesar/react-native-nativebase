@@ -1,6 +1,6 @@
 import { 
   AspectRatio, 
-  Box,  
+  Box,
   Icon, 
   Image, 
   Stack, 

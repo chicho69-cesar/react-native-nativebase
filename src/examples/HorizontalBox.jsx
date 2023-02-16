@@ -1,8 +1,8 @@
 import { 
-  AspectRatio, 
+  AspectRatio,
   Box,
   HStack,
-  Image, 
+  Image,
   Text,
   Heading,
   Flex,
@@ -12,8 +12,8 @@ import {
 
 export default HorizontalBox = () => {
   return <Box alignItems='center'>
-    <Flex direction="row"
-      maxW="80" rounded="lg" overflow="hidden" 
+    <Flex 
+      direction="row" maxW="80" rounded="lg" overflow="hidden" 
       borderColor="coolGray.200" borderWidth="1"
     >
       <SectionImage/>
@@ -24,9 +24,7 @@ export default HorizontalBox = () => {
 
 function SectionImage() {
   return <Box w="40%">
-    <AspectRatio 
-      ratio={9 / 16}
-    >
+    <AspectRatio ratio={9 / 16}>
       <Image
         source={{
           uri: "https://pbs.twimg.com/profile_images/1542776478475190272/5h39TXBP_400x400.jpg"
@@ -34,7 +32,7 @@ function SectionImage() {
         alt="FC Barcelona"
       />
     </AspectRatio>
-    
+     
     <Row 
       position="absolute" bottom="2" w='100%'
       flex={1} justifyContent='center' alignItems='center'
@@ -74,9 +72,7 @@ function SectionText() {
     </Text>
 
     <HStack alignItems="center" mt='5'>
-      <Text 
-        color="coolGray.400" fontWeight="400"
-      >
+      <Text color="coolGray.400" fontWeight="400">
         10 mins antes
       </Text>
     </HStack>

@@ -3,13 +3,15 @@ import { theme } from "./theme";
 import CustomBox from "./CustomBox";
 import { MyCarousel } from "./MyCarousel";
 import HorizontalBox from "./HorizontalBox";
+import CustomCard from "./CustomCard";
 
 export default Examples = () => {
   return <NativeBaseProvider theme={theme}>
     <Center flex={1} px="3">
       {/* <MyCarousel/> */}
       {/* <CustomBox/> */}
-      <HorizontalBox/>
+      {/* <HorizontalBox/> */}
+      <CustomCard/>
     </Center>
   </NativeBaseProvider>;
 }

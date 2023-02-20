@@ -3,6 +3,7 @@ import { BasicButton, ButtonVariants, IconButtons, LoadingButtons, SizesButton }
 import { AcceptTerms, BasicCheckbox, CheckboxGroup, CheckboxWithRef, Controlled, CustomColor, CustomIcon, Disabled, FormControlled, Invalid, SizeCheckbox, Uncontrolled } from "./MyCheckbox";
 import { BasicFormControl, ControlPassword, FormCustomStyle } from "./MyFormControl";
 import { BasicIconButton, SizesIconButton, VariantsIconButton } from "./MyIconButton";
+import { ControlledInput, FormControlledInput, InputAdons, InputElements, InputExample, InputSizes, InputVariants, PasswordInput } from "./MyInput";
 import { AccesingEvents, BasicPressable } from "./MyPressable";
 
 export default Forms = () => {
@@ -36,7 +37,16 @@ export default Forms = () => {
       
       {/* <BasicIconButton/> */}
       {/* <SizesIconButton/> */}
-      <VariantsIconButton/>
+      {/* <VariantsIconButton/> */}
+      
+      {/* <InputExample/> */}
+      {/* <InputSizes/> */}
+      {/* <InputVariants/> */}
+      {/* <InputAdons/> */}
+      {/* <InputElements/> */}
+      {/* <PasswordInput/> */}
+      {/* <ControlledInput/> */}
+      <FormControlledInput/>
     </Center>
   </NativeBaseProvider>;
 }

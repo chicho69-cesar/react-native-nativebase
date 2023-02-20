@@ -8,8 +8,8 @@ export default () => {
   return (
     // <CoreConcepts/>
     // <Layout/>
-    // <Forms/>
+    <Forms/>
     // <Typography/>
-    <Examples/>
+    // <Examples/>
   );
 };

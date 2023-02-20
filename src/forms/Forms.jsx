@@ -4,6 +4,7 @@ import { AcceptTerms, BasicCheckbox, CheckboxGroup, CheckboxWithRef, Controlled,
 import { BasicFormControl, ControlPassword, FormCustomStyle } from "./MyFormControl";
 import { BasicIconButton, SizesIconButton, VariantsIconButton } from "./MyIconButton";
 import { ControlledInput, FormControlledInput, InputAdons, InputElements, InputExample, InputSizes, InputVariants, PasswordInput } from "./MyInput";
+import { ExternalLink, LinkAroundContainers, LinkCustomOnPress, LinkExample, LinkUnderline } from "./MyLink";
 import { AccesingEvents, BasicPressable } from "./MyPressable";
 
 export default Forms = () => {
@@ -46,7 +47,13 @@ export default Forms = () => {
       {/* <InputElements/> */}
       {/* <PasswordInput/> */}
       {/* <ControlledInput/> */}
-      <FormControlledInput/>
+      {/* <FormControlledInput/> */}
+
+      {/* <LinkExample/> */}
+      {/* <ExternalLink/> */}
+      {/* <LinkUnderline/> */}
+      {/* <LinkCustomOnPress/> */}
+      <LinkAroundContainers/>
     </Center>
   </NativeBaseProvider>;
 }

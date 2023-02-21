@@ -8,6 +8,7 @@ import { ExternalLink, LinkAroundContainers, LinkCustomOnPress, LinkExample, Lin
 import { AccesingEvents, BasicPressable } from "./MyPressable";
 import { CustomColorRadio, CustomIconRadio, DisabledRadio, FormControlledRadio, InvalidRadio, RadioExample, RadioWithRef, UncontrolledRadio } from "./MyRadio";
 import { BasicSelect, FormControlledSelect } from "./MySelect";
+import { BasicSlider, ColorSlider, CustomisedSlider, FormControlledSlider, SizeSlider, ValueSlider } from "./MySlider";
 
 export default Forms = () => {
   return <NativeBaseProvider>
@@ -67,7 +68,14 @@ export default Forms = () => {
       {/* <RadioWithRef/> */}
 
       {/* <BasicSelect/> */}
-      <FormControlledSelect/>
+      {/* <FormControlledSelect/> */}
+
+      {/* <BasicSlider/> */}
+      {/* <ColorSlider/> */}
+      {/* <ValueSlider/> */}
+      {/* <SizeSlider/> */}
+      {/* <CustomisedSlider/> */}
+      <FormControlledSlider/>
     </Center>
   </NativeBaseProvider>;
 }

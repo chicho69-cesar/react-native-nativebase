@@ -10,6 +10,7 @@ import { CustomColorRadio, CustomIconRadio, DisabledRadio, FormControlledRadio, 
 import { BasicSelect, FormControlledSelect } from "./MySelect";
 import { BasicSlider, ColorSlider, CustomisedSlider, FormControlledSlider, SizeSlider, ValueSlider } from "./MySlider";
 import { BasicSwitch, SizesSwitch, SwitchColorSchemas, SwitchThumbAndThumbColor } from "./MySwitch";
+import { InvalidAndDisabledTextArea, TextAreaUsage, ValueControlledTextArea } from "./MyTextArea";
 
 export default Forms = () => {
   return <NativeBaseProvider>
@@ -81,7 +82,11 @@ export default Forms = () => {
       {/* <BasicSwitch/> */}
       {/* <SizesSwitch/> */}
       {/* <SwitchThumbAndThumbColor/> */}
-      <SwitchColorSchemas/>
+      {/* <SwitchColorSchemas/> */}
+
+      {/* <TextAreaUsage/> */}
+      {/* <InvalidAndDisabledTextArea/> */}
+      <ValueControlledTextArea/>
     </Center>
   </NativeBaseProvider>;
 }

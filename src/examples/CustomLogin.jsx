@@ -31,6 +31,7 @@ export default function Login() {
       ? console.log('OK')
       : console.log('Bad');
     console.log(errors);
+    console.log(formData);
   }
 
   return <Stack 

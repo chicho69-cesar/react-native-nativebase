@@ -4,6 +4,7 @@ import CustomBox from "./CustomBox";
 import { MyCarousel } from "./MyCarousel";
 import HorizontalBox from "./HorizontalBox";
 import CustomCard from "./CustomCard";
+import Login from "./CustomLogin";
 
 export default Examples = () => {
   return <NativeBaseProvider theme={theme}>
@@ -11,7 +12,8 @@ export default Examples = () => {
       {/* <MyCarousel/> */}
       {/* <CustomBox/> */}
       {/* <HorizontalBox/> */}
-      <CustomCard/>
+      {/* <CustomCard/> */}
+      <Login/>
     </Center>
   </NativeBaseProvider>;
 }

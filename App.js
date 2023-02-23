@@ -1,4 +1,5 @@
 import CoreConcepts from "./src/core-concepts/CoreConcepts";
+import DataDisplay from "./src/data-display/DataDisplay";
 import Examples from "./src/examples/Examples";
 import Forms from "./src/forms/Forms";
 import Layout from "./src/layout/Layout";
@@ -10,6 +11,7 @@ export default () => {
     // <Layout/>
     // <Forms/>
     // <Typography/>
-    <Examples/>
+    // <Examples/>
+    <DataDisplay/>
   );
 };

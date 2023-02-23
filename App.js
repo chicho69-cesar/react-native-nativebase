@@ -4,6 +4,7 @@ import Examples from "./src/examples/Examples";
 import Feedback from "./src/feedback/Feedback";
 import Forms from "./src/forms/Forms";
 import Layout from "./src/layout/Layout";
+import MyOverlay from "./src/overlay/Overlay";
 import Typography from "./src/typography/Typography";
 
 export default () => {
@@ -14,6 +15,7 @@ export default () => {
     // <Typography/>
     // <Examples/>
     // <DataDisplay/>
-    <Feedback/>
+    // <Feedback/>
+    <MyOverlay/>
   );
 };

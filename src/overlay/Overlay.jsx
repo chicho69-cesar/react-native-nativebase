@@ -2,6 +2,7 @@ import { NativeBaseProvider, Center } from "native-base";
 import { BasicAlertDialog } from "./MyAlertDialog";
 import { BasicMenu, GroupMenu, MenuOptionGroup, MenuPlacement } from "./MyMenu";
 import { AvoidKeyBoardModal, BasicModal, CustomBackdropModal, FocusRefModal, ModalPlacement, ModalSizes, MultipleModals } from "./MyModal";
+import { BasicPopover, PopoverFocusRef, PositionsPopover } from "./MyPopover";
 
 export default MyOverlay = () => {
   return <NativeBaseProvider>
@@ -19,7 +20,11 @@ export default MyOverlay = () => {
       {/* <FocusRefModal/> */}
       {/* <AvoidKeyBoardModal/> */}
       {/* <ModalPlacement/> */}
-      <CustomBackdropModal/>
+      {/* <CustomBackdropModal/> */}
+
+      {/* <BasicPopover/> */}
+      {/* <PopoverFocusRef/> */}
+      <PositionsPopover/>
     </Center>
   </NativeBaseProvider>;
 }

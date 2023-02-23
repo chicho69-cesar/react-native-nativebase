@@ -3,6 +3,7 @@ import { ActionAlert, AlertExample, BasicAlert, CompositionAlert, StatusAlert, V
 import { BasicProgress, CustomTrackColor, FlatProgress, ProgressColorSchema, SizesProgress } from "./MyProgress";
 import { BasicSkeleton, ColorSkeleton, CompositionSkeleton, SkeletonExample, SkeletonIsLoaded } from "./MySkeleton";
 import { BasicSpinner, ColorsSpinner, SizesSpinner } from "./MySpinner";
+import { BasicToast, ClosingToast, CustomComponentToast, PositionToast, PrevetingDuplicateToast, StatusAndVariantReceipes } from "./MyToast";
 
 export default DataDisplya = () => {
   return <NativeBaseProvider>
@@ -28,7 +29,14 @@ export default DataDisplya = () => {
 
       {/* <BasicSpinner/> */}
       {/* <ColorsSpinner/> */}
-      <SizesSpinner/>
+      {/* <SizesSpinner/> */}
+
+      {/* <BasicToast/> */}
+      {/* <PositionToast/> */}
+      {/* <CustomComponentToast/> */}
+      {/* <ClosingToast/> */}
+      {/* <StatusAndVariantReceipes/> */}
+      <PrevetingDuplicateToast/>
     </Center>
   </NativeBaseProvider>;
 }

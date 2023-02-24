@@ -7,6 +7,7 @@ import Forms from "./src/forms/Forms";
 import Layout from "./src/layout/Layout";
 import Media from "./src/media/Media";
 import MyOverlay from "./src/overlay/Overlay";
+import Transition from "./src/transition/Transition";
 import Typography from "./src/typography/Typography";
 
 export default () => {
@@ -20,6 +21,7 @@ export default () => {
     // <Feedback/>
     // <MyOverlay/>
     // <Disclosure/>
-    <Media/>
+    // <Media/>
+    <Transition/>
   );
 };

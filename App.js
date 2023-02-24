@@ -6,6 +6,7 @@ import Feedback from "./src/feedback/Feedback";
 import Forms from "./src/forms/Forms";
 import Layout from "./src/layout/Layout";
 import Media from "./src/media/Media";
+import Others from "./src/others/Others";
 import MyOverlay from "./src/overlay/Overlay";
 import Transition from "./src/transition/Transition";
 import Typography from "./src/typography/Typography";
@@ -22,6 +23,7 @@ export default () => {
     // <MyOverlay/>
     // <Disclosure/>
     // <Media/>
-    <Transition/>
+    // <Transition/>
+    <Others/>
   );
 };

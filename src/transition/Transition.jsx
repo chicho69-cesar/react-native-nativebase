@@ -1,6 +1,7 @@
 import { NativeBaseProvider, Center } from "native-base";
 import { Fade, ScaleFade } from "./MyPresenceTransition";
 import { BasicSlide, SlideComposition, SlideWrapped } from "./MySlide";
+import { MyStagger } from "./MyStagger";
 
 export default Transition = () => {
   return <NativeBaseProvider>
@@ -11,6 +12,8 @@ export default Transition = () => {
       {/* <BasicSlide/> */}
       {/* <SlideWrapped/> */}
       {/* <SlideComposition/> */}
+
+      <MyStagger/>
     </Center>
   </NativeBaseProvider>;
 }

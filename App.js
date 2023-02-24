@@ -5,6 +5,7 @@ import Examples from "./src/examples/Examples";
 import Feedback from "./src/feedback/Feedback";
 import Forms from "./src/forms/Forms";
 import Layout from "./src/layout/Layout";
+import Media from "./src/media/Media";
 import MyOverlay from "./src/overlay/Overlay";
 import Typography from "./src/typography/Typography";
 
@@ -18,6 +19,7 @@ export default () => {
     // <DataDisplay/>
     // <Feedback/>
     // <MyOverlay/>
-    <Disclosure/>
+    // <Disclosure/>
+    <Media/>
   );
 };

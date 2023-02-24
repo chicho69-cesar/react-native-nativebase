@@ -1,6 +1,7 @@
 import { NativeBaseProvider, Center } from "native-base";
 import { AvatarBadge, AvatarGroup, BasicAvatar, FallbacksAvatar, SizesAvatar } from "./MyAvatar";
 import { BasicIcon, CreateIcon, CustomIcon, NativeBaseIcons, ThirdPartyIcons } from "./MyIcon";
+import { BasicImage, BorderRadiusImage, FallbackImage, ImageSizes, ImageWithRef } from "./MyImage";
 
 export default Media = () => {
   return <NativeBaseProvider>
@@ -18,7 +19,13 @@ export default Media = () => {
       {/* <NativeBaseIcons/> */}
       {/* <CustomIcon/> */}
       {/* <CreateIcon/> */}
-      <ThirdPartyIcons/>
+      {/* <ThirdPartyIcons/> */}
+
+      {/* <BasicImage/> */}
+      {/* <ImageSizes/> */}
+      {/* <BorderRadiusImage/> */}
+      {/* <FallbackImage/> */}
+      <ImageWithRef/>
     </Center>
   </NativeBaseProvider>;
 }

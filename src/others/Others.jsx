@@ -1,5 +1,6 @@
 import { NativeBaseProvider, Center } from "native-base";
 import { BasicFab, CustomPositionFab, PlaceFab } from "./MyFab";
+import { BasicHidden, HiddenBreakpoints, HiddenColorMode, HiddenPlatform } from "./MyHidden";
 
 export default Transition = () => {
   return <NativeBaseProvider>
@@ -7,6 +8,11 @@ export default Transition = () => {
       {/* <BasicFab/> */}
       {/* <PlaceFab/> */}
       {/* <CustomPositionFab/> */}
+
+      {/* <BasicHidden/> */}
+      {/* <HiddenBreakpoints/> */}
+      {/* <HiddenColorMode/> */}
+      {/* <HiddenPlatform/> */}
     </Center>
   </NativeBaseProvider>;
 }

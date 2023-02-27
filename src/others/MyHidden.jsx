@@ -1,4 +1,4 @@
-import { Hidden, Box, Text, Button, Image, useColorMode } from "native-base";
+import { Hidden, Box, Center, Text, Button, Image, useColorMode } from "native-base";
 
 export function BasicHidden() {
   return <Hidden>
@@ -10,7 +10,7 @@ export function BasicHidden() {
 
 export function HiddenBreakpoints() {
   return <>
-    <Hidden from="sm" till="lg">
+    <Hidden from="md" till="lg">
       <Box bg="red.400" p="2">
         <Text>This text will be hidden from sm to lg screens.</Text>
       </Box>
@@ -69,7 +69,7 @@ export function HiddenColorMode() {
 }
 
 export function HiddenPlatform() {
-  return <Hidden platform={['android', 'web']}>
+  return <Hidden platform={['ios', 'web']}>
     <Box bg="red.400" p="2">
       <Text>This text will be hidden on android and web.</Text>
     </Box>

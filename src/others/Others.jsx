@@ -12,7 +12,7 @@ export default Transition = () => {
       {/* <BasicHidden/> */}
       {/* <HiddenBreakpoints/> */}
       {/* <HiddenColorMode/> */}
-      {/* <HiddenPlatform/> */}
+      <HiddenPlatform/>
     </Center>
   </NativeBaseProvider>;
 }

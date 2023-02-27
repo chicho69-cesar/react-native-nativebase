@@ -12,9 +12,6 @@ export default Media = () => {
       {/* <AvatarBadge/> */}
       {/* <AvatarGroup/> */}
 
-      {/*
-      * Probar los Componentes de aqui en adelante
-      */}
       {/* <BasicIcon/> */}
       {/* <NativeBaseIcons/> */}
       {/* <CustomIcon/> */}

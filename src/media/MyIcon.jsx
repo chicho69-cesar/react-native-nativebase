@@ -1,5 +1,5 @@
 import { 
-  CheckIcon, HStack, Text, Icon, MoonIcon, SunIcon, CheckIcon, 
+  CheckIcon, Box, Center, HStack, Text, Icon, MoonIcon, SunIcon, 
   CircleIcon, ArrowBackIcon, AddIcon, ArrowForwardIcon, 
   ArrowUpIcon, ArrowDownIcon, CheckCircleIcon, ChevronDownIcon, 
   ChevronLeftIcon, ChevronRightIcon, ChevronUpIcon, 
@@ -130,7 +130,7 @@ export function NativeBaseIcons() {
       data={icons} 
       renderItem={({ item }) => <VStack 
           py="2" flex={1} space={2} my={3} mx={2} 
-          boxSize="76" alignItems="center"
+          boxSize="76" alignItems="center" key={item.iconName}
         >
           <Box _text={{
             textAlign: "center"

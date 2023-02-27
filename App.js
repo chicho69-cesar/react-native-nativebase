@@ -8,6 +8,7 @@ import Layout from "./src/layout/Layout";
 import Media from "./src/media/Media";
 import Others from "./src/others/Others";
 import MyOverlay from "./src/overlay/Overlay";
+import RNComponents from "./src/rn-components/RNComponents";
 import Transition from "./src/transition/Transition";
 import Typography from "./src/typography/Typography";
 
@@ -24,6 +25,7 @@ export default () => {
     // <Disclosure/>
     // <Media/>
     // <Transition/>
-    <Others/>
+    // <Others/>
+    <RNComponents/>
   );
 };

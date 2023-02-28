@@ -2,6 +2,7 @@ import { NativeBaseProvider, Center } from "native-base";
 import { MyFlatList } from "./MyFlatList";
 import { MyKeyboardAvoidingView } from "./MyKeyboardAvoidingView";
 import { MyScrollView } from "./MyScrollView";
+import { MySectionList } from "./MySectionList";
 import { MyView } from "./MyView";
 
 export default RNComponents = () => {
@@ -10,7 +11,8 @@ export default RNComponents = () => {
       {/* <MyScrollView/> */}
       {/* <MyView/> */}
       {/* <MyKeyboardAvoidingView/> */}
-      <MyFlatList/>
+      {/* <MyFlatList/> */}
+      <MySectionList/>
     </Center>
   </NativeBaseProvider>;
 }

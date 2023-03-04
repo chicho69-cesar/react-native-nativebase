@@ -5,6 +5,7 @@ import Disclosure from "./src/disclosure/Disclosure";
 import Examples from "./src/examples/Examples";
 import Feedback from "./src/feedback/Feedback";
 import Forms from "./src/forms/Forms";
+import Hooks from "./src/hooks/Hooks";
 import Layout from "./src/layout/Layout";
 import Media from "./src/media/Media";
 import Others from "./src/others/Others";
@@ -19,7 +20,7 @@ export default () => {
     {/* <Layout/> */}
     {/* <Forms/> */}
     {/* <Typography/> */}
-    <Examples/>
+    {/* <Examples/> */}
     {/* <DataDisplay/> */}
     {/* <Feedback/> */}
     {/* <MyOverlay/> */}
@@ -28,5 +29,6 @@ export default () => {
     {/* <Transition/> */}
     {/* <Others/> */}
     {/* <RNComponents/> */}
+    <Hooks/>
   </RecoilRoot>;
 };

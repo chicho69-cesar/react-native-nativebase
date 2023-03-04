@@ -1,4 +1,5 @@
-import { useBreakpointValue, Icon, Text, VStack, Heading, ScrollView } from 'native-base';
+import { useBreakpointValue, View, Icon, Text, VStack, Heading, ScrollView } from 'native-base';
+import { Foundation, Feather } from "@expo/vector-icons";
 
 export const UseBreakpointValue = () => {
   const flexDir = useBreakpointValue({

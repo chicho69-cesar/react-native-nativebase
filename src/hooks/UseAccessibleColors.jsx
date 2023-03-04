@@ -7,6 +7,7 @@ import {
   Switch, 
   useAccessibleColors, 
   useTheme,
+  useContrastText
 } from "native-base";
 import { useState } from "react";
 
@@ -45,8 +46,8 @@ export const UseAccessibleColors = () => {
 
       <Switch 
         onValueChange={() => {
-          toggleAccessibleColors();
           setValue(!value);
+          toggleAccessibleColors();
         }} 
         value={value}
         colorScheme="coolGray" 

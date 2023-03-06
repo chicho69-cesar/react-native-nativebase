@@ -10,6 +10,7 @@ import Layout from "./src/layout/Layout";
 import Media from "./src/media/Media";
 import Others from "./src/others/Others";
 import MyOverlay from "./src/overlay/Overlay";
+import Receipes from "./src/receipes/Receipes";
 import RNComponents from "./src/rn-components/RNComponents";
 import Transition from "./src/transition/Transition";
 import Typography from "./src/typography/Typography";
@@ -29,6 +30,7 @@ export default () => {
     {/* <Transition/> */}
     {/* <Others/> */}
     {/* <RNComponents/> */}
-    <Hooks/>
+    {/* <Hooks/> */}
+    <Receipes/>
   </RecoilRoot>;
 };

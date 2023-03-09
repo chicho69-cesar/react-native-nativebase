@@ -1,5 +1,5 @@
 import { View, StyleSheet, Dimensions, StatusBar, TouchableOpacity, Animated, Pressable } from "react-native";
-import { Box, Text, Center } from "native-base"
+import { Box, useColorModeValue, Center } from "native-base"
 import { TabView, SceneMap } from 'react-native-tab-view';
 import { useState } from "react";
 

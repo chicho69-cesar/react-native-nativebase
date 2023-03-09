@@ -21,7 +21,7 @@ export default () => {
     {/* <Layout/> */}
     {/* <Forms/> */}
     {/* <Typography/> */}
-    {/* <Examples/> */}
+    <Examples/>
     {/* <DataDisplay/> */}
     {/* <Feedback/> */}
     {/* <MyOverlay/> */}
@@ -31,6 +31,6 @@ export default () => {
     {/* <Others/> */}
     {/* <RNComponents/> */}
     {/* <Hooks/> */}
-    <Receipes/>
+    {/* <Receipes/> */}
   </RecoilRoot>;
 };

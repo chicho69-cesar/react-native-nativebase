@@ -17,7 +17,7 @@ import Typography from "./src/typography/Typography";
 
 export default () => {
   return <RecoilRoot>
-    {/* <CoreConcepts/> */}
+    <CoreConcepts/>
     {/* <Layout/> */}
     {/* <Forms/> */}
     {/* <Typography/> */}
@@ -31,6 +31,6 @@ export default () => {
     {/* <Others/> */}
     {/* <RNComponents/> */}
     {/* <Hooks/> */}
-    <Receipes/>
+    {/* <Receipes/> */}
   </RecoilRoot>;
 };

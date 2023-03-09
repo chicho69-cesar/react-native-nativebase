@@ -14,8 +14,8 @@ export default Examples = () => {
       {/* <CustomBox/> */}
       {/* <HorizontalBox/> */}
       {/* <CustomCard/> */}
-      {/* <Login/> */}
-      <CompleteLogin/>
+      <Login/>
+      {/* <CompleteLogin/> */}
     </Center>
   </NativeBaseProvider>;
 }

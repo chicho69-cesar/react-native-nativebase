@@ -8101,6 +8101,11 @@ react-native-linear-gradient@2.6.2:
   resolved "https://registry.yarnpkg.com/react-native-linear-gradient/-/react-native-linear-gradient-2.6.2.tgz#56598a76832724b2afa7889747635b5c80948f38"
   integrity sha512-Z8Xxvupsex+9BBFoSYS87bilNPWcRfRsGC0cpJk72Nxb5p2nEkGSBv73xZbEHnW2mUFvP+huYxrVvjZkr/gRjQ==
 
+react-native-pager-view@^6.1.4:
+  version "6.1.4"
+  resolved "https://registry.yarnpkg.com/react-native-pager-view/-/react-native-pager-view-6.1.4.tgz#3a63ebd1b72f81991157ea552bb9c887e529bc8c"
+  integrity sha512-fmTwgGwPxGCBusKAq7gHzm+s1Yp0qh5rKPoQszaCuxrb+76KgK4Qe82jJNPUp2xTZOKSw+FbJU2QahF8ncTl+w==
+
 react-native-safe-area-context@4.4.1:
   version "4.4.1"
   resolved "https://registry.yarnpkg.com/react-native-safe-area-context/-/react-native-safe-area-context-4.4.1.tgz#239c60b8a9a80eac70a38a822b04c0f1d15ffc01"

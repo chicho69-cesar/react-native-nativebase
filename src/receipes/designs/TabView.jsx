@@ -30,7 +30,7 @@ const FourthRoute = () => <Center>
   This is the Tab 4
 </Center>;
 
-export function TabView() {
+export function MyTabView() {
   const [ index, setIndex ] = useState(0);
   const [ routes ] = useState([{
     key: 'first',

@@ -1,4 +1,5 @@
 import { NativeBaseProvider, Center } from "native-base";
+import { CMUseColorMode, LightAndDarkPseudoProps } from "./ColorMode";
 import { ColorAndBackground, InteractionProps, InternalProps, LayoutWidthAndHeight, MarginAndPadding, UPBorders, UPBordersRadius, UPFlexbox, UPPosition, UPShadow, UPText, UPTypography } from "./UtilityProps";
 
 export default Features = () => {
@@ -15,7 +16,10 @@ export default Features = () => {
       {/* <UPPosition/> */}
       {/* <UPShadow/> */}
       {/* <InternalProps/> */}
-      <InteractionProps/>
+      {/* <InteractionProps/> */}
+
+      {/* <CMUseColorMode/> */}
+      <LightAndDarkPseudoProps/>
     </Center>
   </NativeBaseProvider>;
 }

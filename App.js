@@ -3,6 +3,7 @@ import CoreConcepts from "./src/core-concepts/CoreConcepts";
 import DataDisplay from "./src/data-display/DataDisplay";
 import Disclosure from "./src/disclosure/Disclosure";
 import Examples from "./src/examples/Examples";
+import Features from "./src/features/Features";
 import Feedback from "./src/feedback/Feedback";
 import Forms from "./src/forms/Forms";
 import Hooks from "./src/hooks/Hooks";
@@ -17,7 +18,8 @@ import Typography from "./src/typography/Typography";
 
 export default () => {
   return <RecoilRoot>
-    <CoreConcepts/>
+    {/* <CoreConcepts/> */}
+    <Features/>
     {/* <Layout/> */}
     {/* <Forms/> */}
     {/* <Typography/> */}

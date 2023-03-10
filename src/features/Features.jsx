@@ -1,6 +1,7 @@
 import { NativeBaseProvider, Center } from "native-base";
 import { CMUseColorMode, LightAndDarkPseudoProps } from "./ColorMode";
 import { BasicFactory, DefiningComponentTheme, UsingMode, UsingRefFactory } from "./NBFactory";
+import { FixedSafeArea, FlexibleSafeArea, UsingHookSafeArea } from "./SafeAreaViewProps";
 import { ColorAndBackground, InteractionProps, InternalProps, LayoutWidthAndHeight, MarginAndPadding, UPBorders, UPBordersRadius, UPFlexbox, UPPosition, UPShadow, UPText, UPTypography } from "./UtilityProps";
 
 export default Features = () => {
@@ -25,7 +26,11 @@ export default Features = () => {
       {/* <BasicFactory/> */}
       {/* <DefiningComponentTheme/> */}
       {/* <UsingMode/> */}
-      <UsingRefFactory/>
+      {/* <UsingRefFactory/> */}
+
+      {/* <FlexibleSafeArea/> */}
+      {/* <FixedSafeArea/> */}
+      <UsingHookSafeArea/>
     </Center>
   </NativeBaseProvider>;
 }

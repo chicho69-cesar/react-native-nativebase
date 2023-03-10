@@ -13,13 +13,15 @@ import Others from "./src/others/Others";
 import MyOverlay from "./src/overlay/Overlay";
 import Receipes from "./src/receipes/Receipes";
 import RNComponents from "./src/rn-components/RNComponents";
+import Theme from "./src/theme/Theme";
 import Transition from "./src/transition/Transition";
 import Typography from "./src/typography/Typography";
 
 export default () => {
   return <RecoilRoot>
     {/* <CoreConcepts/> */}
-    <Features/>
+    {/* <Features/> */}
+    <Theme/>
     {/* <Layout/> */}
     {/* <Forms/> */}
     {/* <Typography/> */}
